@@ -29,7 +29,7 @@ services:
       - worker-php
       - worker-python
     ports:
-      - "8080:80"
+      - "8484:80"
 
   # Fusio system database
   mysql-fusio:
