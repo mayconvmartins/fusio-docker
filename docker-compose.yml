@@ -7,8 +7,8 @@ services:
     environment:
       FUSIO_TENANT_ID: ""
       FUSIO_PROJECT_KEY: "42eec18ffdbffc9fda6110dcc705d6ce"
-      FUSIO_URL: "http://api.fusio.cloud:8080"
-      FUSIO_APPS_URL: "http://api.fusio.cloud:8080/apps"
+      FUSIO_URL: "http://api-dev.mvmdev.com:8484"
+      FUSIO_APPS_URL: "http://api-dev.mvmdev.com:8484/apps"
       FUSIO_ENV: "prod"
       FUSIO_DEBUG: "false"
       FUSIO_CONNECTION: "pdo-mysql://fusio:61ad6c605975@mysql-fusio/fusio"
